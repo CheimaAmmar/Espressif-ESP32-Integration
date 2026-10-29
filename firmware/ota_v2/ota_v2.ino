@@ -2,7 +2,7 @@
 #include <ArduinoOTA.h>
 
 // Example update to demonstrate OTA without changing the wiring.
-// Fill in values locally; NEVER push actual credentials to GitHub.
+// Fill in values locally.
 const char* WIFI_SSID = "YOUR_WIFI_SSID";
 const char* WIFI_PASSWORD = "YOUR_WIFI_PASSWORD";
 const char* OTA_PASSWORD = "CHANGE_THIS_OTA_PASSWORD";
