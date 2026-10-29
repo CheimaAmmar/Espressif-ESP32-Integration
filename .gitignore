@@ -1,0 +1,19 @@
+# Arduino temporary/build files
+.arduino15/
+.pio/
+build/
+*.elf
+*.map
+
+# OS/editor metadata
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Local secrets and credentials; never commit secrets in .ino files
+secrets.h
+credentials.h
+wifi_credentials.h
+*.local.h
+.env
+.env.*
