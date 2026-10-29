@@ -31,7 +31,7 @@ The updated sketch should show on restart:
 Firmware version: 1.1.0
 ```
 
-Seeing this output after a network upload demonstrates the version change. A green LED remaining on does not establish which firmware is running.
+Seeing this output after a network upload demonstrates the version change.
 
 The OTA target port may fail to appear if mDNS discovery is blocked. Confirm that both devices are on the appropriate local network, check firewall settings, and verify the serial output and IP address. If OTA cannot be restored, use UART for recovery.
 
@@ -46,6 +46,3 @@ The OTA target port may fail to appear if mDNS discovery is blocked. Confirm tha
 | OTA upload fails | OTA partition scheme and available flash space |
 | OTA lost after a new firmware | Updated sketch still starts OTA and calls `ArduinoOTA.handle()` |
 
-## Security
-
-This demonstration is for a trusted local network. Do not expose ArduinoOTA directly to the internet or publish real credentials in the repository. For production, consider verified firmware images and robust rollback/recovery handling.
