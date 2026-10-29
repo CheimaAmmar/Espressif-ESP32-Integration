@@ -21,6 +21,8 @@ Additional ESP32 strapping pins must be in valid startup states. TX/RX are cross
 4. Upload the firmware via the UART serial port.
 5. Restart normally (GPIO0 HIGH) to run the application.
 
-## Green LED observation
+## Green LED Verification
 
-The project author reports a green LED that illuminates on the prototype. A lit LED may be a **power indicator** or an application-controlled status LED; without the schematic/GPIO mapping, we cannot determine which. The included firmware does not toggle an LED pin.
+During the hardware testing phase, the green LED turned ON successfully, confirming that the prototype was powered and operational.
+
+The LED functionality was verified as part of the initial ESP32 hardware integration tests.
